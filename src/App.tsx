@@ -7,10 +7,10 @@ function App() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const galleryImages = [
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
+    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSGOI.jpg?raw=true",
+    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/BITSCLG.jpg?raw=true",
+    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/JNTUH.jpg?raw=true",
+    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSSHOWCASE.jpg?raw=true",
     "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
@@ -46,7 +46,7 @@ function App() {
               animate={{ opacity: 1 }}
               className="text-xl font-bold"
             >
-              JD
+              HS
             </motion.span>
 
             {/* Mobile menu button */}
@@ -74,13 +74,14 @@ function App() {
 
           {/* Mobile Navigation */}
           <motion.div 
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ 
-              opacity: isMenuOpen ? 1 : 0,
-              height: isMenuOpen ? 'auto' : 0
-            }}
-            className="md:hidden overflow-hidden"
-          >
+  initial={{ opacity: 0, height: 0 }}
+  animate={{ 
+    opacity: isMenuOpen ? 1 : 0,
+    height: isMenuOpen ? 'auto' : 0 
+  }}
+  className={`md:hidden overflow-hidden ${isMenuOpen ? 'block' : 'hidden'}`}
+>
+
             <div className="px-2 pt-2 pb-3 space-y-1">
               <button onClick={() => scrollToSection('home')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Home</button>
               <button onClick={() => scrollToSection('contact')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Contact</button>
@@ -96,9 +97,9 @@ function App() {
       {/* Hero Section */}
       <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80')",
+            backgroundImage: "url('https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/Profile_2.jpg?raw=true')",
           }}
         />
         <div className="absolute inset-0 bg-black bg-opacity-50" />
@@ -107,55 +108,75 @@ function App() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="relative z-10 text-center px-4"
-        >
+          className="relative z-10 text-center px-4 absolute top-[20%] left-0 right-0 mx-auto"
+          >
           <motion.h1 
-            className="text-5xl md:text-7xl font-bold mb-6"
+            className="text-5xl md:text-7xl font-bold mb-2"
             initial={{ scale: 0.5 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            John Doe
+            Hemanthsai Burla
           </motion.h1>
           <motion.p 
-            className="text-xl md:text-2xl mb-8 text-gray-300"
+            className="text-xl md:text-2xl mb-10 text-gray-300"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            Full Stack Developer & UI/UX Designer
+            Full Stack Java Developer | UI/UX Designer | YouTuber
           </motion.p>
         </motion.div>
 
         {/* Social Media Links - Positioned at 70% from top */}
         <motion.div 
           className="absolute left-0 right-0 mx-auto"
-          style={{ top: '70%' }}
+          style={{ top: '80%' }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-            <a href="#" className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
-              <Github size={20} />
-              <span>GitHub</span>
-            </a>
-            <a href="#" className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
-              <Linkedin size={20} />
-              <span>LinkedIn</span>
-            </a>
-            <a href="#" className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
-              <Twitter size={20} />
-              <span>Twitter</span>
-            </a>
-            <a href="#" className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
-              <Instagram size={20} />
-              <span>Instagram</span>
-            </a>
-            <a href="#" className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
-              <Youtube size={20} />
-              <span>YouTube</span>
-            </a>
+          <a href="https://github.com/HemanthsaiBurla" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
+   <Github size={20} />
+   <span>GitHub</span>
+</a>
+
+<a href="https://www.linkedin.com/in/hemanthsaiburla/" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
+   <Linkedin size={20} />
+   <span>LinkedIn</span>
+</a>
+
+<a href="https://x.com/HemanthsaiBurla" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
+   <Twitter size={20} />
+   <span>Twitter</span>
+</a>
+
+<a href="https://www.instagram.com/iamhemanthsai" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
+   <Instagram size={20} />
+   <span>Instagram</span>
+</a>
+
+<a href="https://www.youtube.com/@Techchintuintelugu" 
+   target="_blank"
+   rel="noopener noreferrer"
+   className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
+   <Youtube size={20} />
+   <span>YouTube</span>
+</a>
+
           </div>
         </motion.div>
 
@@ -192,63 +213,68 @@ function App() {
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
               <Code className="text-gray-300 mb-4" size={24} />
               <h3 className="text-xl font-semibold mb-2">Development</h3>
-              <p>React, Node.js, TypeScript, Python</p>
+              <p>Java, MySQL, SQL, HTML, CSS, JS, GitHub, Python</p>
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
               <Star className="text-gray-300 mb-4" size={24} />
               <h3 className="text-xl font-semibold mb-2">Design</h3>
-              <p>UI/UX, Figma, Adobe XD</p>
+              <p>UI/UX, Photoshop, Video & Photo Editing, Photography</p>
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
               <Briefcase className="text-gray-300 mb-4" size={24} />
               <h3 className="text-xl font-semibold mb-2">Experience</h3>
-              <p>5+ Years Professional Experience</p>
+              <p>6 Months, Internship in Java Full Stack</p>
             </div>
           </div>
         </motion.div>
       </section>
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-20 px-4 md:px-20 bg-black/20">
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="max-w-4xl mx-auto"
-        >
-          <div className="flex items-center mb-12">
-            <Image className="text-gray-300 mr-4" size={32} />
-            <h2 className="text-3xl font-bold">Gallery</h2>
-          </div>
-          
-          <div className="relative h-[500px] rounded-xl overflow-hidden">
-            <AnimatePresence mode="wait">
-              <motion.img
-                key={currentImageIndex}
-                src={galleryImages[currentImageIndex]}
-                alt={`Gallery image ${currentImageIndex + 1}`}
-                className="w-full h-full object-cover"
-                initial={{ opacity: 0, x: 100 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -100 }}
-                transition={{ duration: 0.5 }}
-              />
-            </AnimatePresence>
-            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
-              {galleryImages.map((_, index) => (
-                <button
-                  key={index}
-                  className={`w-2 h-2 rounded-full transition-colors ${
-                    index === currentImageIndex ? 'bg-white' : 'bg-white/50'
-                  }`}
-                  onClick={() => setCurrentImageIndex(index)}
-                />
-              ))}
-            </div>
-          </div>
-        </motion.div>
-      </section>
+<section id="gallery" className="py-20 px-4 md:px-20 bg-black/20">
+  <motion.div
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8 }}
+    viewport={{ once: true }}
+    className="max-w-4xl mx-auto"
+  >
+    <div className="flex items-center mb-12">
+      <Image className="text-gray-300 mr-4" size={32} />
+      <h2 className="text-3xl font-bold">Gallery</h2>
+    </div>
+
+    {/* Responsive Gallery */}
+    <div className="relative h-[300px] sm:h-[400px] md:h-[500px] rounded-xl sm:rounded-2xl overflow-hidden">
+      <AnimatePresence mode="wait">
+        <motion.img
+          key={currentImageIndex}
+          src={galleryImages[currentImageIndex]}
+          alt={`Gallery image ${currentImageIndex + 1}`}
+          className="w-full h-full object-contain md:object-cover" // Fix for mobile cropping
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -100 }}
+          transition={{ duration: 0.5 }}
+        />
+      </AnimatePresence>
+      
+      {/* Navigation Dots */}
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
+        {galleryImages.map((_, index) => (
+          <button
+            key={index}
+            className={`w-2 h-2 rounded-full transition-colors ${
+              index === currentImageIndex ? 'bg-white' : 'bg-white/50'
+            }`}
+            onClick={() => setCurrentImageIndex(index)}
+          />
+        ))}
+      </div>
+    </div>
+  </motion.div>
+</section>
+
+
 
       {/* Achievements Section */}
       <section id="achievements" className="py-20 px-4 md:px-20">
