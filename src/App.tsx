@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Github, Linkedin, Mail, ExternalLink, User, Briefcase, Code, Star, Award, AlignCenterVertical as Certificate, Twitter, Instagram, Youtube, Trophy, Image, Menu, X } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, User, Briefcase, Code, Star, Award, projects, AlignCenterVertical as Certificate, Twitter, Instagram, Youtube, Trophy, Image, Menu, X } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -137,7 +137,7 @@ function App() {
           transition={{ delay: 0.6 }}
         >
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-          <a href="https://github.com/HemanthsaiBurla" 
+          <a href="/home/HemanthsaiBurla/portfolio/.bolt/html.html" 
    target="_blank" 
    rel="noopener noreferrer"
    className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
@@ -229,8 +229,201 @@ function App() {
         </motion.div>
       </section>
 
+
+
+
+
+
+
+
+
+
+{/* Projects Section */}
+<section id="projects" className="py-20 px-4 md:px-20 bg-black/50 ">
+  <motion.div
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8 }}
+    viewport={{ once: true }}
+    className="max-w-4xl mx-auto"
+  >
+    <div className="flex items-center mb-12">
+      <Trophy className="text-gray-300 mr-4" size={32} />
+      <h2 className="text-3xl font-bold">Projects</h2>
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <motion.div
+        whileHover={{ scale: 1.02 }}
+        className="bg-blue-500 p-6 rounded-lg backdrop-blur-sm" // change bg color or block project one
+>
+<h3 className="text-xl font-semibold mb-2 text-white-400">Bank Application</h3> 
+        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSGOI.jpg?raw=true" alt="Project 1" className="w-full rounded-lg mb-4" />
+        {/* //to change the project name heading color */}
+        <p>Hello world</p>
+        <div className="flex gap-4">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+        </div>
+      </motion.div>
+
+
+
+
+
+  <motion.div
+  whileHover={{ scale: 1.02 }}
+  className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
+  >
+
+  <h3 className="text-xl font-semibold mb-4 text-white">Calculator Android Application(APK)</h3>
+
+        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSGOI.jpg?raw=true" alt="Project 2" className="w-full rounded-lg mb-4" />
+        {/* <h3 className="text-xl font-semibold mb-2">Project Two</h3> */}
+        <p>Hello world</p>
+        <div className="flex gap-4">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+        </div>
+      </motion.div>
+
+
+
+
+      <motion.div
+  whileHover={{ scale: 1.02 }}
+  className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
+  >
+
+  <h3 className="text-xl font-semibold mb-4 text-white">Calculator Android Application(APK)</h3>
+
+        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSGOI.jpg?raw=true" alt="Project 2" className="w-full rounded-lg mb-4" />
+        {/* <h3 className="text-xl font-semibold mb-2">Project Two</h3> */}
+        <p>Hello world</p>
+        <div className="flex gap-4">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+        </div>
+      </motion.div>
+
+
+
+
+  
+
+
+      <motion.div
+  whileHover={{ scale: 1.02 }}
+  className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
+>
+  <h3 className="text-xl font-semibold rounded-xl mb-4 text-white">Tic-Tac-Toe Game</h3>
+
+  {/* Wrapper Div to Apply Scaling */}
+  <div className="overflow-hidden w-full h-[250px] relative rounded-xl border border-gray-500">
+    <iframe 
+      src="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
+      className="absolute top-0 left-0 w-[180%] h-[170%] scale-[0.6] transform origin-top-left"
+      title="Tic Tac Toe"
+    ></iframe>
+  </div>
+
+  {/* Links */}
+  <div className="flex justify-between mt-4">
+    <a 
+      href="https://github.com/HemanthSaiBurla/Tic-Tac-Toe" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-blue-400 hover:text-blue-500"
+    >
+      GitHub Repo
+    </a>
+    <a 
+      href="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-green-400 hover:text-green-500"
+    >
+      Play Fullscreen
+    </a>
+  </div>
+</motion.div>
+
+
+
+
+      <motion.div
+  whileHover={{ scale: 1.02 }}
+  className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
+>
+  <h3 className="text-xl font-semibold mb-4 text-white">Game</h3>
+  
+  {/* Embedded Game - Fixed Height for Full View */}
+  <iframe 
+    src="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
+    className="w-full h-[250px] rounded-lg border border-gray-500"
+    title="Tic Tac Toe"
+  ></iframe>
+
+  {/* Links */}
+  <div className="flex justify-between mt-4">
+    <a 
+      href="https://github.com/HemanthSaiBurla/Tic-Tac-Toe" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-blue-400 hover:text-blue-500"
+    >
+      GitHub Repo
+    </a>
+    <a 
+      href="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-green-400 hover:text-green-500"
+    >
+      Play Fullscreen
+    </a>
+  </div>
+</motion.div>
+
+
+
+
+
+      <motion.div
+        whileHover={{ scale: 1.02 }}
+        className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
+      >
+        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSGOI.jpg?raw=true" alt="Project 2" className="w-full rounded-lg mb-4" />
+        <h3 className="text-xl font-semibold mb-2">Project Four</h3>
+        <p>hellkfnjgn bkjglkergjklerjlkj ,mngkegkerglglg ngkeglergjlerggnknglejglerjgl gnekgkgknlg
+           kjgjnekjhrkhgkjjrhreglerjgljerljlerglerjglerjglkjglkjglj</p>
+        <div className="flex gap-4">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+        </div>
+      </motion.div>
+    </div>
+  </motion.div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       {/* Gallery Section */}
-<section id="gallery" className="py-20 px-4 md:px-20 bg-black/20">
+<section id="gallery" className="py-20 px-4 md:px-20 ">
   <motion.div
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -277,7 +470,7 @@ function App() {
 
 
       {/* Achievements Section */}
-      <section id="achievements" className="py-20 px-4 md:px-20">
+      <section id="achievements" className="py-20 px-4 md:px-20 bg-black/50">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -327,8 +520,12 @@ function App() {
         </motion.div>
       </section>
 
+
+
+
+
       {/* Certifications Section */}
-      <section id="certifications" className="py-20 px-4 md:px-20 bg-black/20">
+      <section id="certifications" className="py-20 px-4 md:px-20">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -388,7 +585,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 md:px-20">
+      <section id="contact" className="py-20 px-4 md:px-20 bg-black/50">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -414,7 +611,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 text-center text-sm text-gray-400">
+      <footer className="py-8 text-center text-sm text-gray-400 bg-black/50">
         <p>© 2024 John Doe. All rights reserved.</p>
       </footer>
     </div>
