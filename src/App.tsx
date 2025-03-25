@@ -9,10 +9,8 @@ function App() {
   const galleryImages = [
     "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSGOI.jpg?raw=true",
     "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/BITSCLG.jpg?raw=true",
-    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/JNTUH.jpg?raw=true",
+    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/JNTUHy.jpg?raw=true",
     "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSSHOWCASE.jpg?raw=true",
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
 
   ];
@@ -46,7 +44,7 @@ function App() {
               animate={{ opacity: 1 }}
               className="text-xl font-bold"
             >
-              HS
+              HemanthsaiBurla
             </motion.span>
 
             {/* Mobile menu button */}
@@ -65,10 +63,13 @@ function App() {
             >
               <button onClick={() => scrollToSection('home')} className="hover:text-gray-300 transition-colors">Home</button>
               <button onClick={() => scrollToSection('contact')} className="hover:text-gray-300 transition-colors">Contact</button>
+              <button onClick={() => scrollToSection('projects')} className="hover:text-gray-300 transition-colors">Projects</button>
+
               <button onClick={() => scrollToSection('certifications')} className="hover:text-gray-300 transition-colors">Certifications</button>
               <button onClick={() => scrollToSection('achievements')} className="hover:text-gray-300 transition-colors">Achievements</button>
               <a href="/resume.pdf" target="_blank" className="hover:text-gray-300 transition-colors">Resume</a>
               <button onClick={() => scrollToSection('gallery')} className="hover:text-gray-300 transition-colors">Gallery</button>
+
             </motion.div>
           </div>
 
@@ -137,7 +138,7 @@ function App() {
           transition={{ delay: 0.6 }}
         >
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-          <a href="/home/HemanthsaiBurla/portfolio/.bolt/html.html" 
+          <a href="https://github.com/HemanthsaiBurla" 
    target="_blank" 
    rel="noopener noreferrer"
    className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
@@ -207,6 +208,12 @@ function App() {
           <p className="text-lg leading-relaxed mb-8">
             I'm a passionate developer with a love for creating beautiful, functional websites and applications. 
             With expertise in modern web technologies and a keen eye for design, I bring ideas to life through code.
+            Experienced Java Backend Developer with a strong foundation in
+computer science fundamentals. Proficient in Java, Spring Boot, and
+MySQL, adept at delivering both independent and team-driven
+projects. Passionate about continuous learning and deeply interested
+in computer systems.
+
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -255,16 +262,28 @@ function App() {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       <motion.div
         whileHover={{ scale: 1.02 }}
-        className="bg-blue-500 p-6 rounded-lg backdrop-blur-sm" // change bg color or block project one
+        className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
+        // change bg color or block project one
 >
 <h3 className="text-xl font-semibold mb-2 text-white-400">Bank Application</h3> 
-        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSGOI.jpg?raw=true" alt="Project 1" className="w-full rounded-lg mb-4" />
+        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/Project_images/Bank_Home_Screen.jpg?raw=true" alt="Project 1" className="w-full rounded-lg mb-4" />
         {/* //to change the project name heading color */}
-        <p>Hello world</p>
-        <div className="flex gap-4">
+        <p>Secure, Web-based banking system built using Java Servlets, JSP, MySQL, and CSS, offering essential banking features.</p>
+        <div className="flex justify-between mt-4">
+  <div className="flex gap-4">
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
         </div>
+
+    <a 
+      href="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-green-400 hover:text-green-500"
+    >
+      ReadMe
+    </a>
+  </div>
       </motion.div>
 
 
@@ -278,102 +297,94 @@ function App() {
 
   <h3 className="text-xl font-semibold mb-4 text-white">Calculator Android Application(APK)</h3>
 
-        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSGOI.jpg?raw=true" alt="Project 2" className="w-full rounded-lg mb-4" />
+        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/Project_images/Calculator_Android_UI.jpg?raw=true" alt="Project 2" className="w-full rounded-lg mb-4" />
         {/* <h3 className="text-xl font-semibold mb-2">Project Two</h3> */}
-        <p>Hello world</p>
-        <div className="flex gap-4">
+        <p>Developed an Android Calculator Application(APK) using JAVA, JS, CSS, HTML,Android Studio and VS code.</p>
+        <div className="flex justify-between mt-4">
+  <div className="flex gap-4">
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
         </div>
+
+    <a 
+      href="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-green-400 hover:text-green-500"
+    >
+      Test App(APK)
+    </a>
+  </div>
       </motion.div>
 
 
 
-
-      <motion.div
-  whileHover={{ scale: 1.02 }}
-  className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
-  >
-
-  <h3 className="text-xl font-semibold mb-4 text-white">Calculator Android Application(APK)</h3>
-
-        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSGOI.jpg?raw=true" alt="Project 2" className="w-full rounded-lg mb-4" />
-        {/* <h3 className="text-xl font-semibold mb-2">Project Two</h3> */}
-        <p>Hello world</p>
-        <div className="flex gap-4">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
-        </div>
-      </motion.div>
-
-
-
-
-  
 
 
       <motion.div
   whileHover={{ scale: 1.02 }}
   className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
 >
-  <h3 className="text-xl font-semibold rounded-xl mb-4 text-white">Tic-Tac-Toe Game</h3>
+  <h3 className="text-xl font-semibold rounded-xl mb-4 text-white">Calculator Web Application( live ⇩ )</h3>
 
   {/* Wrapper Div to Apply Scaling */}
   <div className="overflow-hidden w-full h-[250px] relative rounded-xl border border-gray-500">
     <iframe 
-      src="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
-      className="absolute top-0 left-0 w-[180%] h-[170%] scale-[0.6] transform origin-top-left"
+      src="https://hemanthsaiburla.github.io/Calculator_Web_App/" 
+      className="absolute top-0 left-0 w-[250%] h-[245%] scale-[0.41] transform origin-top-left"
       title="Tic Tac Toe"
     ></iframe>
   </div>
-
+  <p>Conversion and Calculator App using HTML, CSS, and JS for real-time conversions (Speed, Length, Time, Temperature, Discount) and dynamic calculations.</p>
   {/* Links */}
   <div className="flex justify-between mt-4">
+    
+  <div className="flex gap-4">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+        </div>    
     <a 
-      href="https://github.com/HemanthSaiBurla/Tic-Tac-Toe" 
-      target="_blank" 
-      rel="noopener noreferrer"
-      className="text-blue-400 hover:text-blue-500"
-    >
-      GitHub Repo
-    </a>
-    <a 
-      href="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
+      href="https://hemanthsaiburla.github.io/Calculator_Web_App/" 
       target="_blank" 
       rel="noopener noreferrer"
       className="text-green-400 hover:text-green-500"
     >
-      Play Fullscreen
+      Test Fullscreen
     </a>
   </div>
 </motion.div>
 
 
+
+
+  
 
 
       <motion.div
   whileHover={{ scale: 1.02 }}
   className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
 >
-  <h3 className="text-xl font-semibold mb-4 text-white">Game</h3>
-  
-  {/* Embedded Game - Fixed Height for Full View */}
-  <iframe 
-    src="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
-    className="w-full h-[250px] rounded-lg border border-gray-500"
-    title="Tic Tac Toe"
-  ></iframe>
+  <h3 className="text-xl font-semibold rounded-xl mb-4 text-white">Tic-Tac-Toe Game( live ⇩ )</h3>
+
+  {/* Wrapper Div to Apply Scaling */}
+
+  <div className="overflow-hidden w-full h-[250px] relative rounded-xl border border-gray-500">
+    
+    <iframe 
+      src="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
+      className="absolute top-0 left-0 w-[300%] h-[300%] scale-[0.34] transform origin-top-left"
+      title="Tic Tac Toe"
+    ></iframe>
+  </div>
+  <p>A simple web-based Tic Tac Toe game that supports two modes: User vs User and User vs Computer. The game also features a history of results.</p>
 
   {/* Links */}
   <div className="flex justify-between mt-4">
-    <a 
-      href="https://github.com/HemanthSaiBurla/Tic-Tac-Toe" 
-      target="_blank" 
-      rel="noopener noreferrer"
-      className="text-blue-400 hover:text-blue-500"
-    >
-      GitHub Repo
-    </a>
+  <div className="flex gap-4">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+        </div>
+
     <a 
       href="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
       target="_blank" 
@@ -388,26 +399,10 @@ function App() {
 
 
 
-
-      <motion.div
-        whileHover={{ scale: 1.02 }}
-        className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
-      >
-        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSGOI.jpg?raw=true" alt="Project 2" className="w-full rounded-lg mb-4" />
-        <h3 className="text-xl font-semibold mb-2">Project Four</h3>
-        <p>hellkfnjgn bkjglkergjklerjlkj ,mngkegkerglglg ngkeglergjlerggnknglejglerjgl gnekgkgknlg
-           kjgjnekjhrkhgkjjrhreglerjgljerljlerglerjglerjglkjglkjglj</p>
-        <div className="flex gap-4">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
-        </div>
-      </motion.div>
+  
     </div>
   </motion.div>
 </section>
-
-
-
 
 
 
@@ -489,33 +484,43 @@ function App() {
               className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
             >
               <Award className="text-gray-300 mb-4" size={32} />
-              <h3 className="text-xl font-semibold mb-2">Best Developer Award 2023</h3>
-              <p className="text-gray-300">Recognized for outstanding contributions to open-source projects and innovative solutions.</p>
+              <h3 className="text-xl font-semibold mb-2">Publishing* Calculator App in Play store</h3>
+              <p className="text-gray-300">Successfully created and developed an android application using Android studio, Java, Html, Js, Css. Which is ready to publish.</p>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">In progress</a>
+
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.02 }}
               className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
             >
               <Award className="text-gray-300 mb-4" size={32} />
-              <h3 className="text-xl font-semibold mb-2">Innovation Excellence</h3>
-              <p className="text-gray-300">Led the development of a revolutionary AI-powered web application.</p>
+              <h3 className="text-xl font-semibold mb-2"> Java 5⭐ in Hackerrank | Selected as Content Moderater in Genpact</h3>
+              <p className="text-gray-300">As Content moderater in Genpact.</p>
             </motion.div>
+
+
             <motion.div
               whileHover={{ scale: 1.02 }}
               className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
             >
               <Award className="text-gray-300 mb-4" size={32} />
-              <h3 className="text-xl font-semibold mb-2">Community Leader</h3>
-              <p className="text-gray-300">Built and managed a tech community of over 10,000 developers.</p>
+              <h3 className="text-xl font-semibold mb-2">Monetized YouTuber as a Techie</h3>
+              <p className="text-gray-300">I share technical knowledge on YouTube, simplifying complex concepts to empower learners and inspire innovation in the tech world.</p>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">YouTube Channel</a>
             </motion.div>
+
             <motion.div
               whileHover={{ scale: 1.02 }}
               className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
             >
               <Award className="text-gray-300 mb-4" size={32} />
-              <h3 className="text-xl font-semibold mb-2">Hackathon Winner</h3>
-              <p className="text-gray-300">First place in International Web Dev Hackathon 2023.</p>
+              <h3 className="text-xl font-semibold mb-2">Awarded in the Project expo's 2024</h3>
+              <p className="text-gray-300">Developed a non-existed "Kids Safety Smart Water Heater" and awarded three first prizes in the Project Expo's in national events(JNTUH, BITS, SVSGOI).</p>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">Android App</a>
             </motion.div>
+            
+
+
           </div>
         </motion.div>
       </section>
@@ -525,64 +530,122 @@ function App() {
 
 
       {/* Certifications Section */}
-      <section id="certifications" className="py-20 px-4 md:px-20">
+      
+
+
+
+
+{/* Certifications Section */}
+<section id="certifications" className="py-20 px-4 md:px-20">
+  <motion.div
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8 }}
+    viewport={{ once: true }}
+    className="max-w-4xl mx-auto"
+  >
+    <div className="flex items-center mb-12">
+      <Certificate className="text-gray-300 mr-4" size={32} />
+      <h2 className="text-3xl font-bold">Certifications</h2>
+    </div>
+
+    <div className="space-y-6">
+      {[
+        {
+          title: "Programming in Java",
+          org: "NPTEL",
+          date: "2024",
+          id: "NPTEL24CS105S562000079",
+          description: "Covers Java fundamentals, OOP, exception handling, collections, and multithreading.",
+          topics: ["OOP Principles", "Exception Handling", "Multithreading", "Java Collections", "Data Structures"],
+          certificateLink: "https://nptel.ac.in/viewcertificate/NPTEL24CS105S562000079"
+        },
+        {
+          title: "Full Stack Java",
+          org: "J Spiders",
+          date: "2024",
+          id: "----",
+          description: "Hands-on training in Java backend and frontend development, including Spring Boot and React.",
+          topics: ["Spring Boot", "Hibernate", "React.js", "REST APIs", "Microservices"],
+          certificateLink: "https://nptel.ac.in/viewcertificate/NPTEL24CS105S562000079"
+
+        },
+        {
+          title: "Cloud Computing",
+          org: "NPTEL",
+          date: "2024",
+          id: "NPTEL24CS17S4704000234",
+          description: "Explores cloud concepts, deployment models, security, and AWS services.",
+          topics: ["AWS Basics", "Virtualization", "SaaS, PaaS, IaaS", "Cloud Security", "Edge Computing"],
+          certificateLink: "https://nptel.ac.in/viewcertificate/NPTEL24CS105S562000079"
+
+        },
+        {
+          title: "Internet of Things",
+          org: "NPTEL",
+          date: "2023",
+          id: "NPTEL23CS83S8503000722",
+          description: "Focuses on IoT architecture, communication protocols, sensors, and real-world applications.",
+          topics: ["IoT Architecture", "Sensors & Actuators", "MQTT Protocol", "Edge Computing", "IoT Security"],
+          certificateLink: "https://nptel.ac.in/viewcertificate/NPTEL24CS105S562000079"
+
+        }
+      ].map((cert, index) => (
         <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="max-w-4xl mx-auto"
+          key={index}
+          whileHover={{ scale: 1.01 }}
+          className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
         >
-          <div className="flex items-center mb-12">
-            <Certificate className="text-gray-300 mr-4" size={32} />
-            <h2 className="text-3xl font-bold">Certifications</h2>
-          </div>
-          
-          <div className="space-y-6">
-            {[
-              {
-                title: "AWS Certified Solutions Architect",
-                org: "Amazon Web Services",
-                date: "2023",
-                credentialId: "AWS-123456"
-              },
-              {
-                title: "Google Cloud Professional Developer",
-                org: "Google Cloud",
-                date: "2023",
-                credentialId: "GCP-789012"
-              },
-              {
-                title: "Meta Frontend Developer",
-                org: "Meta",
-                date: "2022",
-                credentialId: "MFE-345678"
-              },
-              {
-                title: "Advanced React & GraphQL",
-                org: "Wes Bos",
-                date: "2022",
-                credentialId: "ARG-901234"
-              }
-            ].map((cert, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ scale: 1.01 }}
-                className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
-              >
-                <div className="flex items-start justify-between">
-                  <div>
-                    <h3 className="text-xl font-semibold mb-2">{cert.title}</h3>
-                    <p className="text-gray-300">{cert.org}</p>
-                    <p className="text-sm text-gray-400 mt-2">Credential ID: {cert.credentialId}</p>
-                  </div>
-                  <span className="text-sm text-gray-400">{cert.date}</span>
-                </div>
-              </motion.div>
-            ))}
+          <div className="flex items-start justify-between">
+            <div>
+              <h3 className="text-xl font-semibold mb-2">{cert.title}</h3>
+              <p className="text-gray-300">{cert.org}</p>
+              <p className="text-sm text-gray-400 mt-2">ID: {cert.id}</p>
+              <p className="text-gray-200 mt-2">{cert.description}</p>
+              <ul className="text-gray-300 list-disc list-inside mt-2">
+                {cert.topics.map((topic, i) => (
+                  <li key={i}>{topic}</li>
+                ))}
+              </ul>
+              {/* View Certificate Link - Only if available */}
+              {cert.certificateLink && (
+                <a 
+                  href={cert.certificateLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-500 mt-2 inline-block"
+                >
+                  View Certificate
+                </a>
+              )}
+            </div>
+            <span className="text-sm text-gray-400">{cert.date}</span>
           </div>
         </motion.div>
-      </section>
+      ))}
+    </div>
+  </motion.div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 md:px-20 bg-black/50">
@@ -600,7 +663,7 @@ function App() {
             Feel free to reach out!
           </p>
           <motion.a
-            href="mailto:contact@example.com"
+            href="mailto:hemanthsaiburla@gmail.com"
             className="inline-block bg-gray-700 hover:bg-gray-600 text-white px-8 py-3 rounded-full font-semibold transition-colors"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -612,7 +675,7 @@ function App() {
 
       {/* Footer */}
       <footer className="py-8 text-center text-sm text-gray-400 bg-black/50">
-        <p>© 2024 John Doe. All rights reserved.</p>
+        <p>© 2025 Hemanthsai Burla. All rights reserved.</p>
       </footer>
     </div>
   );
