@@ -48,7 +48,7 @@ function App() {
               animate={{ opacity: 1 }}
               className="text-xl font-bold"
             >
-              HemanthsaiBurla
+              Hemanthsai Burla
             </motion.span>
 
             {/* Mobile menu button */}
