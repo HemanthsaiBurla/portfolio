@@ -11,7 +11,11 @@ function App() {
     "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/BITSCLG.jpg?raw=true",
     "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/JNTUHy.jpg?raw=true",
     "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SVSSHOWCASE.jpg?raw=true",
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
+    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/BITSEXPLANATION.jpg?raw=true",
+    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/Presentation_SVS.jpg?raw=true",
+    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/NITWGL.jpg?raw=true",
+    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/FriendsJIJNASA.jpg?raw=true",
+    "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/Presentation.jpg?raw=true",
 
   ];
 
@@ -206,13 +210,9 @@ function App() {
             <h2 className="text-3xl font-bold">About Me</h2>
           </div>
           <p className="text-lg leading-relaxed mb-8">
-            I'm a passionate developer with a love for creating beautiful, functional websites and applications. 
-            With expertise in modern web technologies and a keen eye for design, I bring ideas to life through code.
-            Experienced Java Backend Developer with a strong foundation in
-computer science fundamentals. Proficient in Java, Spring Boot, and
-MySQL, adept at delivering both independent and team-driven
-projects. Passionate about continuous learning and deeply interested
-in computer systems.
+          Passionate Java Backend Developer with expertise in Spring Boot, MySQL, and modern web technologies.
+           I craft functional, visually appealing applications, blending clean code with strong computer science 
+           fundamentals. Always eager to learn and innovate.
 
           </p>
           
@@ -220,11 +220,11 @@ in computer systems.
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
               <Code className="text-gray-300 mb-4" size={24} />
               <h3 className="text-xl font-semibold mb-2">Development</h3>
-              <p>Java, MySQL, SQL, HTML, CSS, JS, GitHub, Python</p>
+              <p>Java, MySQL, Spring Boot, Servlets, Hibernate, SQL, HTML, CSS, JS, GitHub, MS Office, Python</p>
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
               <Star className="text-gray-300 mb-4" size={24} />
-              <h3 className="text-xl font-semibold mb-2">Design</h3>
+              <h3 className="text-xl font-semibold mb-2">Other</h3>
               <p>UI/UX, Photoshop, Video & Photo Editing, Photography</p>
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
@@ -265,18 +265,18 @@ in computer systems.
         className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
         // change bg color or block project one
 >
-<h3 className="text-xl font-semibold mb-2 text-white-400">Bank Application</h3> 
+<h3 className="text-xl font-semibold mb-2 text-white-400">Banking Application</h3> 
         <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/Project_images/Bank_Home_Screen.jpg?raw=true" alt="Project 1" className="w-full rounded-lg mb-4" />
         {/* //to change the project name heading color */}
-        <p>Secure, Web-based banking system built using Java Servlets, JSP, MySQL, and CSS, offering essential banking features.</p>
+        <p>Developed a secure web-based banking system using Java Servlets, JSP, MySQL, and CSS, achieving 95% completion with real-time updates for core banking features.</p>
         <div className="flex justify-between mt-4">
   <div className="flex gap-4">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+          <a href="https://github.com/HemanthsaiBurla/Bank_Application" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://www.linkedin.com/posts/hemanthsaiburla_bankapplication-bankmanagementsystem-fintech-activity-7292229064201805825-NeyB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqD2sgBqdn4XqDQs7FEeJ0JaevL40tXv7o" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
         </div>
 
     <a 
-      href="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
+      href="https://github.com/HemanthsaiBurla/Bank_Application/blob/main/README.md"
       target="_blank" 
       rel="noopener noreferrer"
       className="text-green-400 hover:text-green-500"
@@ -302,12 +302,12 @@ in computer systems.
         <p>Developed an Android Calculator Application(APK) using JAVA, JS, CSS, HTML,Android Studio and VS code.</p>
         <div className="flex justify-between mt-4">
   <div className="flex gap-4">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+          <a href="https://github.com/HemanthsaiBurla/Calculator_Android_Application-APK" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://www.linkedin.com/posts/hemanthsaiburla_smartcalculator-hybridapp-androiddevelopment-activity-7309448765063503872-db0p?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqD2sgBqdn4XqDQs7FEeJ0JaevL40tXv7o" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
         </div>
 
     <a 
-      href="https://hemanthsaiburla.github.io/Tic-Tac-Toe/" 
+      href="https://www.dropbox.com/scl/fi/9p7g3xt0gjjux7bdsjznh/Calculator.apk?rlkey=abpkwk2ndh01px8yr17s9me09&st=9o8ef3dc&dl=1" 
       target="_blank" 
       rel="noopener noreferrer"
       className="text-green-400 hover:text-green-500"
@@ -340,8 +340,8 @@ in computer systems.
   <div className="flex justify-between mt-4">
     
   <div className="flex gap-4">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+          <a href="https://github.com/HemanthsaiBurla/Calculator_Web_App" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://www.linkedin.com/posts/hemanthsaiburla_conversionapp-calculatorapp-webcalculator-activity-7305566587938377728-ueza?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqD2sgBqdn4XqDQs7FEeJ0JaevL40tXv7o" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
         </div>    
     <a 
       href="https://hemanthsaiburla.github.io/Calculator_Web_App/" 
@@ -381,8 +381,8 @@ in computer systems.
   {/* Links */}
   <div className="flex justify-between mt-4">
   <div className="flex gap-4">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+          <a href="https://github.com/HemanthsaiBurla/Tic-Tac-Toe" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://www.linkedin.com/in/hemanthsaiburla/" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
         </div>
 
     <a 
@@ -395,6 +395,42 @@ in computer systems.
     </a>
   </div>
 </motion.div>
+
+
+
+
+
+<motion.div
+  whileHover={{ scale: 1.02 }}
+  className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
+  >
+
+  <h3 className="text-xl font-semibold mb-4 text-white">Kid's Safety Smart Water Heater</h3>
+
+        <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/ECE%20project.jpg?raw=true" alt="Project 2" className="w-full rounded-lg mb-4" />
+        {/* <h3 className="text-xl font-semibold mb-2">Project Two</h3> */}
+        <p>Created and Developed "Kid's Safety Smart Water Heater" designed to protect children(humans) and pets from electric shocks and burns caused by immersion water heaters.</p>
+        <div className="flex justify-between mt-4">
+  <div className="flex gap-4">
+          <a href="https://github.com/HemanthsaiBurla/Kid-s-Safety-Smart-Water-Heater" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
+          <a href="https://www.linkedin.com/posts/hemanthsaiburla_newinnovative-project-abstract-activity-7210223861441699840-mrbu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqD2sgBqdn4XqDQs7FEeJ0JaevL40tXv7o" target="_blank" rel="noopener noreferrer" className="text-blue-400">LinkedIn</a>
+        </div>
+
+    <a 
+      href="https://github.com/HemanthsaiBurla/Kid-s-Safety-Smart-Water-Heater/tree/main/Documentation" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-green-400 hover:text-green-500"
+    >
+      View Documentation
+    </a>
+  </div>
+      </motion.div>
+
+
+
+
+
 
 
 
@@ -486,7 +522,7 @@ in computer systems.
               <Award className="text-gray-300 mb-4" size={32} />
               <h3 className="text-xl font-semibold mb-2">Publishing* Calculator App in Play store</h3>
               <p className="text-gray-300">Successfully created and developed an android application using Android studio, Java, Html, Js, Css. Which is ready to publish.</p>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">In progress</a>
+              <a href="https://2.bp.blogspot.com/-1qwOAVxIu6Q/VpSKk5P8A9I/AAAAAAAAG3U/KSk_oaL4VWY/s1600/no_update.jpg" target="_blank" rel="noopener noreferrer" className="text-blue-400">In progress</a>
 
             </motion.div>
             <motion.div
@@ -506,7 +542,7 @@ in computer systems.
               <Award className="text-gray-300 mb-4" size={32} />
               <h3 className="text-xl font-semibold mb-2">Monetized YouTuber as a Techie</h3>
               <p className="text-gray-300">I share technical knowledge on YouTube, simplifying complex concepts to empower learners and inspire innovation in the tech world.</p>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">YouTube Channel</a>
+              <a href="https://www.youtube.com/@Techchintuintelugu" target="_blank" rel="noopener noreferrer" className="text-blue-400">YouTube Channel</a>
             </motion.div>
 
             <motion.div
@@ -516,7 +552,7 @@ in computer systems.
               <Award className="text-gray-300 mb-4" size={32} />
               <h3 className="text-xl font-semibold mb-2">Awarded in the Project expo's 2024</h3>
               <p className="text-gray-300">Developed a non-existed "Kids Safety Smart Water Heater" and awarded three first prizes in the Project Expo's in national events(JNTUH, BITS, SVSGOI).</p>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-400">Android App</a>
+              <a href="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SPOORTHI.jpg" target="_blank" rel="noopener noreferrer" className="text-blue-400">View Certificates</a>
             </motion.div>
             
 
@@ -556,9 +592,9 @@ in computer systems.
           org: "NPTEL",
           date: "2024",
           id: "NPTEL24CS105S562000079",
-          description: "Covers Java fundamentals, OOP, exception handling, collections, and multithreading.",
-          topics: ["OOP Principles", "Exception Handling", "Multithreading", "Java Collections", "Data Structures"],
-          certificateLink: "https://nptel.ac.in/viewcertificate/NPTEL24CS105S562000079"
+          description: "Covers Java fundamentals, OOP, exception handling, collections, data structures, and multithreading.",
+          topics: ["OOP Principles", "Exception Handling", "Multithreading", "Java Collections"],
+          certificateLink: "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/JAVA_CER.jpg?raw=true"
         },
         {
           title: "Full Stack Java",
@@ -566,9 +602,8 @@ in computer systems.
           date: "2024",
           id: "----",
           description: "Hands-on training in Java backend and frontend development, including Spring Boot and React.",
-          topics: ["Spring Boot", "Hibernate", "React.js", "REST APIs", "Microservices"],
-          certificateLink: "https://nptel.ac.in/viewcertificate/NPTEL24CS105S562000079"
-
+          topics: ["Spring Boot", "Hibernate", "React.js", "REST APIs"],
+          certificateLink: "https://2.bp.blogspot.com/-1qwOAVxIu6Q/VpSKk5P8A9I/AAAAAAAAG3U/KSk_oaL4VWY/s1600/no_update.jpg"
         },
         {
           title: "Cloud Computing",
@@ -576,9 +611,8 @@ in computer systems.
           date: "2024",
           id: "NPTEL24CS17S4704000234",
           description: "Explores cloud concepts, deployment models, security, and AWS services.",
-          topics: ["AWS Basics", "Virtualization", "SaaS, PaaS, IaaS", "Cloud Security", "Edge Computing"],
-          certificateLink: "https://nptel.ac.in/viewcertificate/NPTEL24CS105S562000079"
-
+          topics: ["AWS Basics", "Virtualization", "SaaS, PaaS, IaaS"],
+          certificateLink: "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/CLOUDCOMPUTING.jpg?raw=true"
         },
         {
           title: "Internet of Things",
@@ -586,9 +620,8 @@ in computer systems.
           date: "2023",
           id: "NPTEL23CS83S8503000722",
           description: "Focuses on IoT architecture, communication protocols, sensors, and real-world applications.",
-          topics: ["IoT Architecture", "Sensors & Actuators", "MQTT Protocol", "Edge Computing", "IoT Security"],
-          certificateLink: "https://nptel.ac.in/viewcertificate/NPTEL24CS105S562000079"
-
+          topics: ["IoT Architecture", "Sensors & Actuators", "Edge Computing", "IoT Security"],
+          certificateLink: "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/IoT.jpg?raw=true"
         }
       ].map((cert, index) => (
         <motion.div
@@ -626,6 +659,7 @@ in computer systems.
     </div>
   </motion.div>
 </section>
+
 
 
 
