@@ -92,7 +92,7 @@ function App() {
               <button onClick={() => scrollToSection('contact')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Contact</button>
               <button onClick={() => scrollToSection('certifications')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Certifications</button>
               <button onClick={() => scrollToSection('achievements')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Achievements</button>
-              <a href="/resume.pdf" target="_blank" className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Resume</a>
+              <a href="https://drive.google.com/file/d/1VZx9jZihkR2scCiE41BzUpFMR0QpgzQ3/view?usp=sharing" target="_blank" className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Resume</a>
               <button onClick={() => scrollToSection('gallery')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Gallery</button>
             </div>
           </motion.div>
