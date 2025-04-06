@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Github, Linkedin, Mail, ExternalLink, User, Briefcase, Code, Star, Award, projects, AlignCenterVertical as Certificate, Twitter, Instagram, Youtube, Trophy, Image, Menu, X } from 'lucide-react';
 
 function App() {
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -71,7 +72,7 @@ function App() {
 
               <button onClick={() => scrollToSection('certifications')} className="hover:text-gray-300 transition-colors">Certifications</button>
               <button onClick={() => scrollToSection('achievements')} className="hover:text-gray-300 transition-colors">Achievements</button>
-              <a href="/resume.pdf" target="_blank" className="hover:text-gray-300 transition-colors">Resume</a>
+              <a href="https://drive.google.com/file/d/1V9Tv0_U1dd7qWZb8RFri0g2xe1I_vWhY/view?usp=sharing" target="_blank" className="hover:text-gray-300 transition-colors">Resume</a>
               <button onClick={() => scrollToSection('gallery')} className="hover:text-gray-300 transition-colors">Gallery</button>
 
             </motion.div>
@@ -552,7 +553,7 @@ function App() {
               <Award className="text-gray-300 mb-4" size={32} />
               <h3 className="text-xl font-semibold mb-2">Awarded in the Project expo's 2024</h3>
               <p className="text-gray-300">Developed a non-existed "Kids Safety Smart Water Heater" and awarded three first prizes in the Project Expo's in national events(JNTUH, BITS, SVSGOI).</p>
-              <a href="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SPOORTHI.jpg" target="_blank" rel="noopener noreferrer" className="text-blue-400">View Certificates</a>
+              <a href="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SPOORTHI.jpg" target="_blank" rel="noopener noreferrer" className="text-blue-400">View Certificate</a>
             </motion.div>
             
 
