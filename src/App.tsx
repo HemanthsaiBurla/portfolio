@@ -90,6 +90,7 @@ function App() {
             <div className="px-2 pt-2 pb-3 space-y-1">
               <button onClick={() => scrollToSection('home')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Home</button>
               <button onClick={() => scrollToSection('contact')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Contact</button>
+              <button onClick={() => scrollToSection('Projects')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Projects</button>
               <button onClick={() => scrollToSection('certifications')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Certifications</button>
               <button onClick={() => scrollToSection('achievements')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Achievements</button>
               <a href="https://drive.google.com/file/d/1V9Tv0_U1dd7qWZb8RFri0g2xe1I_vWhY/view?usp=sharing" target="_blank" className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Resume</a>
@@ -210,9 +211,7 @@ function App() {
             <h2 className="text-3xl font-bold">About Me</h2>
           </div>
           <p className="text-lg leading-relaxed mb-8">
-          Passionate Java Backend Developer with expertise in Spring Boot, MySQL, and modern web technologies.
-           I craft functional, visually appealing applications, blending clean code with strong computer science 
-           fundamentals. Always eager to learn and innovate.
+          Passionate Java Full Stack Developer with expertise in Spring Boot, MySQL, and frontend web technologies. I craft functional, visually appealing applications, blending clean code with strong computer science fundamentals. Always eager to learn and innovate. I hold a B.Tech degree in Electronics and Communication Engineering (ECE) from SVS Group of Institutions.
 
           </p>
           
@@ -474,7 +473,7 @@ function App() {
           key={currentImageIndex}
           src={galleryImages[currentImageIndex]}
           alt={`Gallery image ${currentImageIndex + 1}`}
-          className="w-full h-full object-contain md:object-cover" // Fix for mobile cropping
+          className="w-full h-full object-cover rounded-xl"
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: -100 }}
