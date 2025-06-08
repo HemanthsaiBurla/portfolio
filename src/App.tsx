@@ -71,9 +71,9 @@ function App() {
               <button onClick={() => scrollToSection('projects')} className="hover:text-gray-300 transition-colors">Projects</button>
               <button onClick={() => scrollToSection('certifications')} className="hover:text-gray-300 transition-colors">Certifications</button>
               <button onClick={() => scrollToSection('achievements')} className="hover:text-gray-300 transition-colors">Achievements</button>
-              <a href="https://drive.google.com/file/d/1V9Tv0_U1dd7qWZb8RFri0g2xe1I_vWhY/view?usp=sharing" target="_blank" className="hover:text-gray-300 transition-colors">Resume</a>
+              <a href="https://drive.google.com/file/d/1o2GxjQn9xK8OJiFS4WL6szhf0hnEUxR5/view?usp=sharing" target="_blank" className="hover:text-gray-300 transition-colors">Resume</a>
               <button onClick={() => scrollToSection('gallery')} className="hover:text-gray-300 transition-colors">Gallery</button>
-
+                       
             </motion.div>
           </div>
 
