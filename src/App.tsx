@@ -529,7 +529,7 @@ function App() {
             >
               <Award className="text-gray-300 mb-4" size={32} />
               <h3 className="text-xl font-semibold mb-2">Publishing Calculator App in Play store</h3>
-              <p className="text-gray-300">Successfully created and developed an android application using Android studio, Java, Html, Js, Css. Which is ready to publish.</p>
+              <p className="text-gray-300">Successfully created and developed an android Calculator application using Android studio, Java, Html, Js, Css. Which is ready to publish.</p>
               <a href="https://2.bp.blogspot.com/-1qwOAVxIu6Q/VpSKk5P8A9I/AAAAAAAAG3U/KSk_oaL4VWY/s1600/no_update.jpg" target="_blank" rel="noopener noreferrer" className="text-blue-400">In progress</a>
 
             </motion.div>
