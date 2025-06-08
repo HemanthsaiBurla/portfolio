@@ -307,7 +307,7 @@ function App() {
 
         <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/Project_images/Calculator_Android_UI.jpg?raw=true" alt="Project 2" className="w-full rounded-lg mb-4" />
         {/* <h3 className="text-xl font-semibold mb-2">Project Two</h3> */}
-        <p>Developed an Android Calculator Application(APK) using JAVA, JS, CSS, HTML,Android Studio and VS code. Achieved more than 100%, included Unit-Conversations</p>
+        <p>Developed an Android Calculator Application(APK) using JAVA, JS, CSS, HTML,Android Studio and VS code. Achieved more than 100%, included Unit-Conversations.</p>
         <div className="flex justify-between mt-4">
   <div className="flex gap-4">
           <a href="https://github.com/HemanthsaiBurla/Calculator_Android_Application-APK" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
