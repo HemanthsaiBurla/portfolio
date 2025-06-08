@@ -93,7 +93,7 @@ function App() {
               <button onClick={() => scrollToSection('Projects')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Projects</button>
               <button onClick={() => scrollToSection('certifications')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Certifications</button>
               <button onClick={() => scrollToSection('achievements')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Achievements</button>
-              <a href="https://drive.google.com/file/d/1V9Tv0_U1dd7qWZb8RFri0g2xe1I_vWhY/view?usp=sharing" target="_blank" className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Resume</a>
+              <a href="https://drive.google.com/file/d/1o2GxjQn9xK8OJiFS4WL6szhf0hnEUxR5/view?usp=sharing" target="_blank" className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Resume</a>
               <button onClick={() => scrollToSection('gallery')} className="block w-full text-left px-3 py-2 hover:bg-gray-800 rounded-md">Gallery</button>
             </div>
           </motion.div>
@@ -276,7 +276,7 @@ function App() {
 <h3 className="text-xl font-semibold mb-2 text-white-400">Banking Application</h3> 
         <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/Project_images/Bank_Home_Screen.jpg?raw=true" alt="Project 1" className="w-full rounded-lg mb-4" />
         {/* //to change the project name heading color */}
-        <p>Developed a secure web-based banking system using Java Servlets, JSP, MySQL, HTML and CSS, achieved 95% completion with real-time updates for core banking features.</p>
+        <p>Developed a secure web-based banking system using Java Servlets, JSP, JDBC, MySQL, HTML and CSS, achieved 95% completion with real-time updates for core banking features.</p>
         <div className="flex justify-between mt-4">
   <div className="flex gap-4">
           <a href="https://github.com/HemanthsaiBurla/Bank_Application" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
@@ -595,15 +595,8 @@ function App() {
 
     <div className="space-y-6">
       {[
-        {
-          title: "Programming in Java",
-          org: "NPTEL",
-          date: "2024",
-          id: "NPTEL24CS105S562000079",
-          description: "Covers Java fundamentals, OOPs, exception handling, collections, data structures, and multithreading.",
-          topics: ["OOPs Principles", "Exception Handling", "Multithreading", "Java Collections"],
-          certificateLink: "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/JAVA_CER.jpg?raw=true"
-        },
+         
+         
         {
           title: "Full Stack Java",
           org: "J Spiders",
@@ -613,6 +606,16 @@ function App() {
           topics: ["Spring Boot", "Hibernate", "DSA", "REST APIs"],
           certificateLink: "https://2.bp.blogspot.com/-1qwOAVxIu6Q/VpSKk5P8A9I/AAAAAAAAG3U/KSk_oaL4VWY/s1600/no_update.jpg"
         },
+        {
+          title: "Programming in Java",
+          org: "NPTEL",
+          date: "2024",
+          id: "NPTEL24CS105S562000079",
+          description: "Covers Java fundamentals, OOPs, exception handling, collections, data structures, and multithreading.",
+          topics: ["OOPs Principles", "Exception Handling", "Multithreading", "Java Collections"],
+          certificateLink: "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/JAVA_CER.jpg?raw=true"
+        },
+        
         {
           title: "Cloud Computing",
           org: "NPTEL",
