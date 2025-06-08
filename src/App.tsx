@@ -237,7 +237,7 @@ function App() {
               <h3 className="text-xl font-semibold mb-2">Other</h3>
               <p>• Typing Speed – 40 WPM, Arduino Uno</p>
               <p>• Video & Photo Editing, Photography</p>
-              <p>• UI/UX, , Passionate to create APKs, </p>
+              <p>• UI/UX, , Passionate to create APKs</p>
             </div>
             
           </div>
@@ -539,7 +539,7 @@ function App() {
             >
               <Award className="text-gray-300 mb-4" size={32} />
               <h3 className="text-xl font-semibold mb-2"> Selected as Content Moderater in Genpact | HackerRank – Java (5⭐-Star Badge)</h3>
-              <p className="text-gray-300">As Content moderater in Genpact and plenty of problems solved in HackerRank and LeetCode</p>
+              <p className="text-gray-300">As Content moderater in Genpact and plenty of problems solved in HackerRank and LeetCode.</p>
             </motion.div>
 
 
