@@ -130,7 +130,7 @@ function App() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            Full Stack Java Developer | UI/UX Designer | YouTuber
+            Full Stack Java Developer | YouTuber
           </motion.p>
         </motion.div>
 
@@ -159,6 +159,14 @@ function App() {
    <span>LinkedIn</span>
 </a>
 
+<a href="https://www.youtube.com/@Techchintuintelugu" 
+   target="_blank"
+   rel="noopener noreferrer"
+   className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
+   <Youtube size={20} />
+   <span>YouTube</span>
+</a>
+
 <a href="https://x.com/HemanthsaiBurla" 
    target="_blank" 
    rel="noopener noreferrer"
@@ -175,13 +183,6 @@ function App() {
    <span>Instagram</span>
 </a>
 
-<a href="https://www.youtube.com/@Techchintuintelugu" 
-   target="_blank"
-   rel="noopener noreferrer"
-   className="hover:text-gray-400 transition-colors flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
-   <Youtube size={20} />
-   <span>YouTube</span>
-</a>
 
           </div>
         </motion.div>
@@ -211,7 +212,8 @@ function App() {
             <h2 className="text-3xl font-bold">About Me</h2>
           </div>
           <p className="text-lg leading-relaxed mb-8">
-          Passionate Java Full Stack Developer with expertise in Spring Boot, MySQL, and frontend web technologies. I craft functional, visually appealing applications, blending clean code with strong computer science fundamentals. Always eager to learn and innovate. I hold a B.Tech degree in Electronics and Communication Engineering (ECE) from SVS Group of Institutions.
+          Passionate Java Full Stack Developer with expertise in Spring Boot, MySQL, DSA, and frontend web technologies. 
+          I craft functional, visually appealing applications, blending clean code with strong computer science fundamentals. Always eager to learn and innovate. I hold a B.Tech degree in Electronics and Communication Engineering (ECE) from SVS Group of Institutions.
 
           </p>
           
@@ -219,18 +221,25 @@ function App() {
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
               <Code className="text-gray-300 mb-4" size={24} />
               <h3 className="text-xl font-semibold mb-2">Development</h3>
-              <p>Java, MySQL, Spring Boot, Servlets, Hibernate, SQL, HTML, CSS, JS, GitHub, MS Office, Python</p>
-            </div>
-            <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
-              <Star className="text-gray-300 mb-4" size={24} />
-              <h3 className="text-xl font-semibold mb-2">Other</h3>
-              <p>UI/UX, Photoshop, Video & Photo Editing, Photography</p>
+              <p>• HTML, CSS and JS</p>
+              <p>• JAVA, Python, DSA, Spring Boot, Servlets, Hibernate, JDBC</p>
+              <p>• SQL, MySQL, PostgreSQL</p>
+              <p>• GitHub, MS Office & more</p>
             </div>
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
               <Briefcase className="text-gray-300 mb-4" size={24} />
               <h3 className="text-xl font-semibold mb-2">Experience</h3>
-              <p>6 Months, Internship in Java Full Stack</p>
+              <p>• 1 month Java Programming - Virtual Internship in CodSoft</p>
+              <p>• 6 Months, Training in Java Full Stack</p>
             </div>
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+              <Star className="text-gray-300 mb-4" size={24} />
+              <h3 className="text-xl font-semibold mb-2">Other</h3>
+              <p>• Typing Speed – 40 WPM, Arduino Uno</p>
+              <p>• Video & Photo Editing, Photography</p>
+              <p>• UI/UX, , Passionate to create APKs, </p>
+            </div>
+            
           </div>
         </motion.div>
       </section>
@@ -267,7 +276,7 @@ function App() {
 <h3 className="text-xl font-semibold mb-2 text-white-400">Banking Application</h3> 
         <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/Project_images/Bank_Home_Screen.jpg?raw=true" alt="Project 1" className="w-full rounded-lg mb-4" />
         {/* //to change the project name heading color */}
-        <p>Developed a secure web-based banking system using Java Servlets, JSP, MySQL, and CSS, achieving 95% completion with real-time updates for core banking features.</p>
+        <p>Developed a secure web-based banking system using Java Servlets, JSP, MySQL, HTML and CSS, achieved 95% completion with real-time updates for core banking features.</p>
         <div className="flex justify-between mt-4">
   <div className="flex gap-4">
           <a href="https://github.com/HemanthsaiBurla/Bank_Application" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
@@ -298,7 +307,7 @@ function App() {
 
         <img src="https://github.com/HemanthsaiBurla/portfolio/blob/main/Project_images/Calculator_Android_UI.jpg?raw=true" alt="Project 2" className="w-full rounded-lg mb-4" />
         {/* <h3 className="text-xl font-semibold mb-2">Project Two</h3> */}
-        <p>Developed an Android Calculator Application(APK) using JAVA, JS, CSS, HTML,Android Studio and VS code.</p>
+        <p>Developed an Android Calculator Application(APK) using JAVA, JS, CSS, HTML,Android Studio and VS code. Achieved more than 100%, included Unit-Conversations</p>
         <div className="flex justify-between mt-4">
   <div className="flex gap-4">
           <a href="https://github.com/HemanthsaiBurla/Calculator_Android_Application-APK" target="_blank" rel="noopener noreferrer" className="text-blue-400">GitHub</a>
@@ -519,7 +528,7 @@ function App() {
               className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
             >
               <Award className="text-gray-300 mb-4" size={32} />
-              <h3 className="text-xl font-semibold mb-2">Publishing* Calculator App in Play store</h3>
+              <h3 className="text-xl font-semibold mb-2">Publishing Calculator App in Play store</h3>
               <p className="text-gray-300">Successfully created and developed an android application using Android studio, Java, Html, Js, Css. Which is ready to publish.</p>
               <a href="https://2.bp.blogspot.com/-1qwOAVxIu6Q/VpSKk5P8A9I/AAAAAAAAG3U/KSk_oaL4VWY/s1600/no_update.jpg" target="_blank" rel="noopener noreferrer" className="text-blue-400">In progress</a>
 
@@ -529,8 +538,8 @@ function App() {
               className="bg-white/10 p-6 rounded-lg backdrop-blur-sm"
             >
               <Award className="text-gray-300 mb-4" size={32} />
-              <h3 className="text-xl font-semibold mb-2"> Java 5⭐ in Hackerrank | Selected as Content Moderater in Genpact</h3>
-              <p className="text-gray-300">As Content moderater in Genpact.</p>
+              <h3 className="text-xl font-semibold mb-2"> Selected as Content Moderater in Genpact | HackerRank – Java (5⭐-Star Badge)</h3>
+              <p className="text-gray-300">As Content moderater in Genpact and plenty of problems solved in HackerRank and LeetCode</p>
             </motion.div>
 
 
@@ -550,7 +559,7 @@ function App() {
             >
               <Award className="text-gray-300 mb-4" size={32} />
               <h3 className="text-xl font-semibold mb-2">Awarded in the Project expo's 2024</h3>
-              <p className="text-gray-300">Developed a non-existed "Kids Safety Smart Water Heater" and awarded three first prizes in the Project Expo's in national events(JNTUH, BITS, SVSGOI).</p>
+              <p className="text-gray-300">Developed a non-existed "Kids Safety Smart Water Heater" and awarded three first prizes in the Project Expo's in national events (JNTUH, BITS, SVSGOI).</p>
               <a href="https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/SPOORTHI.jpg" target="_blank" rel="noopener noreferrer" className="text-blue-400">View Certificate</a>
             </motion.div>
             
@@ -591,8 +600,8 @@ function App() {
           org: "NPTEL",
           date: "2024",
           id: "NPTEL24CS105S562000079",
-          description: "Covers Java fundamentals, OOP, exception handling, collections, data structures, and multithreading.",
-          topics: ["OOP Principles", "Exception Handling", "Multithreading", "Java Collections"],
+          description: "Covers Java fundamentals, OOPs, exception handling, collections, data structures, and multithreading.",
+          topics: ["OOPs Principles", "Exception Handling", "Multithreading", "Java Collections"],
           certificateLink: "https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/JAVA_CER.jpg?raw=true"
         },
         {
@@ -600,8 +609,8 @@ function App() {
           org: "J Spiders",
           date: "2024",
           id: "----",
-          description: "Hands-on training in Java backend and frontend development, including Spring Boot and React.",
-          topics: ["Spring Boot", "Hibernate", "React.js", "REST APIs"],
+          description: "Hands-on training in Java backend and frontend development, including Spring Boot and Hibernate.",
+          topics: ["Spring Boot", "Hibernate", "DSA", "REST APIs"],
           certificateLink: "https://2.bp.blogspot.com/-1qwOAVxIu6Q/VpSKk5P8A9I/AAAAAAAAG3U/KSk_oaL4VWY/s1600/no_update.jpg"
         },
         {
