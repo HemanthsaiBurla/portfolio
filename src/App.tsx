@@ -105,7 +105,7 @@ function App() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70"
           style={{
-            backgroundImage: "url('https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/Profile_2.jpg?raw=true')",
+            backgroundImage: "url('https://github.com/HemanthsaiBurla/portfolio/blob/main/certificates/Profile_3.jpg?raw=true')",
           }}
         />
         <div className="absolute inset-0 bg-black bg-opacity-50" />
@@ -212,8 +212,7 @@ function App() {
             <h2 className="text-3xl font-bold">About Me</h2>
           </div>
           <p className="text-lg leading-relaxed mb-8">
-          Passionate Java Full Stack Developer with expertise in Spring Boot, MySQL, DSA, and frontend web technologies. 
-          I craft functional, visually appealing applications, blending clean code with strong computer science fundamentals. Always eager to learn and innovate. I hold a B.Tech degree in Electronics and Communication Engineering (ECE) from SVS Group of Institutions.
+          Passionate Java Full Stack Developer with expertise in Core Java, Spring Boot, Servlets, JSP, SQL, Python, and frontend technologies. I build real-world apps like a banking portal and Android calculator, blending clean code with strong DSA skills. With a B.Tech in ECE from SVS Group of Institutions, I’m driven to learn, innovate, and share on GitHub and YouTube.
 
           </p>
           
